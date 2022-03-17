@@ -7,7 +7,9 @@ public class Banco {
         System.out.println(conta.obterSaldo());
         conta.depositar(150);
         System.out.println(conta.obterSaldo());
-        conta.sacar(75);
+        System.out.println(conta.sacar(75));
+        System.out.println(conta.obterSaldo());
+        System.out.println(conta.sacar(180));
         System.out.println(conta.obterSaldo());
     }
 }
