@@ -27,5 +27,19 @@ public class Biblioteca {
         l2.setISBN("123asdf123");
         l2.setAutor(coelho);
         l2.setEditora(exata);
+
+        System.out.println(l1.getTitulo());
+        System.out.println(l1.getISBN());
+
+        //Primeira forma
+        Autor autorRecuperado = l1.getAutor();
+        System.out.println(autorRecuperado.getNome());
+        //Segunda forma
+        System.out.println(l1.getAutor().getNome());
+
+        //Continuem para exibir a editora...
+        //Alterem o nome do autor para "Coelho, Paulo"
+        //Exiba tudo novamente com a alteração
+
     }
 }
