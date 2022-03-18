@@ -37,6 +37,8 @@ public class Biblioteca {
         //Segunda forma
         System.out.println(l1.getAutor().getNome());
 
+        coelho.setNome("Coelho, Paulo");
+        System.out.println(coelho.getNome());
         //Continuem para exibir a editora...
         //Alterem o nome do autor para "Coelho, Paulo"
         //Exiba tudo novamente com a alteração
