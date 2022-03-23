@@ -37,4 +37,12 @@ public class Livro {
     public void setEditora(Editora editora) {
         this.editora = editora;
     }
+
+    public void exibirDescricaoLivro(){
+        System.out.println("LIVRO");
+        System.out.println("Nome: " + this.getTitulo());
+        System.out.println("ISBN: " + this.getISBN());
+        System.out.println("Autor: " + this.getAutor().getNome());
+        System.out.println("Editora: " + this.getEditora().getNome());
+    }
 }
